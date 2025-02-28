@@ -1,0 +1,120 @@
+{
+    "id": "softlight",
+    "title": "[SOFTLIGHT]",
+    "description": "",
+    "version": "0.0.1",
+    "authors": [
+      {
+        "name": "jenny",
+        "url": "https://github.com/JenniferPylko",
+        "discord": "jennyofworms"
+      }
+    ],
+    "compatibility": {
+      "minimum": 12,
+      "verified": 12
+    },
+    "license": "CC0",
+    "esmodules": ["js/system.mjs"],
+    "styles": ["softlight.css"],
+    "packs": [
+      {
+        "name": "skills",
+        "label": "Skills",
+        "path": "packs/skills",
+        "type": "Item"
+      },
+      {
+        "name": "weapons",
+        "label": "Weapons",
+        "path": "packs/weapons",
+        "type": "Item"
+      },
+      {
+        "name": "rules",
+        "label": "System Rules",
+        "path": "packs/rules",
+        "type": "JournalEntry"
+      },
+      {
+        "name": "occupations",
+        "label": "Occupations",
+        "path": "packs/occupations",
+        "type": "Item"
+      },
+      {
+        "name": "modules",
+        "label": "Modules",
+        "path": "packs/modules",
+        "type": "Item"
+      },
+      {
+        "name": "characters",
+        "label": "Character Templates",
+        "path": "packs/characters",
+        "type": "Actor"
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "documentTypes": {
+      "Actor": {
+        "character": {
+          "htmlFields": ["description"]
+        },
+        "vehicle": {
+          "htmlFields": ["description"]
+        }
+      },
+      "Item": {
+        "character_type": {
+          "htmlFields": ["description"]
+        },
+        "collectible": {
+          "htmlFields": ["description"]
+        },
+        "equipment": {
+          "htmlFields": ["description"]
+        },
+        "hypervisor_chip": {
+          "htmlFields": ["description"]
+        },
+        "module": {
+          "htmlFields": ["description"]
+        },
+        "occupation": {
+          "htmlFields": ["description"]
+        },
+        "prosthetic": {
+          "htmlFields": ["description"]
+        },
+        "skill": {
+          "htmlFields": ["description"]
+        },
+        "tool": {
+          "htmlFields": ["description"]
+        },
+        "weapon": {
+          "htmlFields": ["description"]
+        }
+      },
+      "JournalEntryPage": {
+        "rule": {}
+      }
+    },
+    "grid": {
+      "type": 1,
+      "distance": 1,
+      "units": "m",
+      "diagonals": 1
+    },
+    "initiative": "1d100",
+    "background": "systems/softlight/media/softlight.jpg",
+    "socket": true
+  }
+  

@@ -1,0 +1,24 @@
+{
+    "SOFTLIGHT": {
+        "Labels": {
+            "Actor": {
+                "base": "Actor",
+                "character": "Character",
+                "vehicle": "Vehicle"
+            },
+            "Item": {
+                "base": "Item",
+                "character_type": "Character Type",
+                "collectible": "Collectible",
+                "equipment": "Equipment",
+                "hypervisor_chip": "Hypervisor Chip",
+                "module": "Module",
+                "prosthetic": "Prosthetic",
+                "occupation": "Occupation",
+                "skill": "Skill",
+                "tool": "Tool",
+                "weapon": "Weapon"
+            }
+        }
+    }
+}
