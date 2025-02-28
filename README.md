@@ -1,0 +1,1 @@
+# Softlight for FoundryVTT
